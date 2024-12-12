@@ -35,7 +35,7 @@ export const ContactForm = () => {
         />
         <Modal isOpen={isModalOpen} onCLick={() => setIsModalOpen(false)} />
         <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col">
-          <div className="flex h-12 sm:w-72 justify-center items-center border-2 border-teal-400/50 hover:bg-teal-400 p-2 rounded cursor-default hover:shadow-button text-gray-100 transition-all">
+          <div className="flex h-12 sm:w-72 justify-center items-center border-2 border-indigo-400/50 hover:bg-indigo-400 p-2 rounded cursor-default hover:shadow-button text-gray-100 transition-all">
             Entre em contato
           </div>
           <div className="text-2xl text-gray-600 flex items-center justify-center h-20 sm:gap-3 gap-6">
@@ -44,14 +44,14 @@ export const ContactForm = () => {
                 href={contact.url}
                 key={`contact-${index}`}
                 target="_blanck"
-                className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-teal-400/50 hover:bg-teal-400 hover:shadow-button hover:border-2 hover:border-teal-300"
+                className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-indigo-400/50 hover:bg-indigo-400 hover:shadow-button hover:border-2 hover:border-indigo-300"
               >
                 {contact.icon}
               </motion.a>
             ))}
             <motion.a
               href="mailto:gomescrystyan@gmail.com"
-              className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-teal-400/50 hover:bg-teal-400 hover:shadow-button hover:border-2 hover:border-teal-300"
+              className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-indigo-400/50 hover:bg-indigo-400 hover:shadow-button hover:border-2 hover:border-indigo-300"
             >
               <MdEmail />
             </motion.a>
@@ -59,7 +59,7 @@ export const ContactForm = () => {
               href="doc/CrystyanCurriculo.pdf"
               download
               target="_blanck"
-              className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-teal-400/50 hover:bg-teal-400 hover:shadow-button hover:border-2 hover:border-teal-300"
+              className="text-gray-100 w-12 h-12 hover:h-14 hover:w-14 flex justify-center items-center transition-all rounded-lg border-2 border-indigo-400/50 hover:bg-indigo-400 hover:shadow-button hover:border-2 hover:border-indigo-300"
             >
               <BsFiletypePdf />
             </motion.a>

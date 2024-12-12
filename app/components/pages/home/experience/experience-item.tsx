@@ -30,13 +30,6 @@ export const ExperienceItem = () => {
           </div>
           <div>
             <div className="flex flex-col gap-2 text-sm sm:text-base">
-              <a
-                target="_black"
-                className="text-gray-500 hover:text-teal-500 transition-colors"
-                href="https://www.linkedin.com/company/somos-login/"
-              >
-                @Control361
-              </a>
               <h2 className="text-gray-300">{value.title}</h2>
               <span className="text-gray-500">{value.dateWork}</span>
               <p className="text-gray-400">{value.subText}</p>

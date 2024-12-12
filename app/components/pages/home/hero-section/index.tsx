@@ -36,7 +36,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:max-w-[530px]"
         >
-          <p className="font-mono text-teal-400">Olá, meu nome é</p>
+          <p className="font-mono text-indigo-400">Olá, meu nome é</p>
           <h2 className="text-4xl font-medium mt-2">
             Crystyan Gomes de Moura Ferreira
           </h2>
@@ -70,9 +70,9 @@ export const HeroSection = () => {
           <Image
             width={420}
             height={420}
-            src="/images/crystyan4.jpg"
+            src="/images/crystyan7.jpg"
             alt="foto de perfil"
-            className="p-1 border-2 border-teal-500 w-[300px] h-full lg:w-[420px] mb-6 lg:mb-0 lg:rounded-lg rounded-full object-cover hover:shadow-button hover:border-teal-200 transition-all"
+            className="p-1 border-2 border-indigo-500 w-[300px] h-full lg:w-[420px] mb-6 lg:mb-0 lg:rounded-lg rounded-full object-cover hover:shadow-button hover:border-indigo-200 transition-all"
           />
         </motion.div>
       </div>

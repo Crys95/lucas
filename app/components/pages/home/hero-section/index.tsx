@@ -16,8 +16,6 @@ export const Experiencias = [
   { name: 'Documentação Técnica' },
   { name: 'Documentação do negócios' },
   { name: 'API Rest' },
-  
-
 ]
 
 export const HeroSection = () => {
@@ -33,12 +31,15 @@ export const HeroSection = () => {
           className="w-full lg:max-w-[530px]"
         >
           <p className="font-mono text-amber-400">Olá, meu nome é</p>
-          <h2 className="text-4xl font-medium mt-2">
-            Lucas Pereira de Souza
-          </h2>
+          <h2 className="text-4xl font-medium mt-2">Lucas Pereira de Souza</h2>
           <p className="text-gray-200 my-6 text-base sm:text-base">
-          Product Owner com mais de 8 anos de experiência em Tecnologia da Informação, especializado no desenvolvimento e gestão de produtos digitais. Desde 2021, lidero iniciativas estratégicas que promovem soluções inovadoras, alinhadas às necessidades dos clientes e aos objetivos de negócios. Tenho sólida expertise em tecnologia, inovação e criação de experiências excepcionais para os usuários, unindo visão de produto a resultados tangíveis para as organizações.
-
+            Product Owner com mais de 8 anos de experiência em Tecnologia da
+            Informação, especializado no desenvolvimento e gestão de produtos
+            digitais. Desde 2021, lidero iniciativas estratégicas que promovem
+            soluções inovadoras, alinhadas às necessidades dos clientes e aos
+            objetivos de negócios. Tenho sólida expertise em tecnologia,
+            inovação e criação de experiências excepcionais para os usuários,
+            unindo visão de produto a resultados tangíveis para as organizações.
           </p>
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[550px]">
             {Experiencias.map((value, i) => (

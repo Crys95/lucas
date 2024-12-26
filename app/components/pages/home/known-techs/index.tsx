@@ -2,8 +2,8 @@
 import { SectionTitles } from '@/app/components/section-title'
 import { KnownTech } from './known-tech'
 import { motion } from 'framer-motion'
-import { SiJira, SiMiro, SiPostman, SiVtex } from "react-icons/si"
-import { FaConfluence, FaPinterest } from "react-icons/fa"
+import { SiJira, SiMiro, SiPostman, SiVtex } from 'react-icons/si'
+import { FaConfluence, FaPinterest } from 'react-icons/fa'
 import {
   TbBrandNextjs,
   TbBrandReact,

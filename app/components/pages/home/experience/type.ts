@@ -26,7 +26,6 @@ export const ExperienciasEb = [
   { name: 'PL/SQL' },
   { name: 'Documentação Técnica' },
   { name: 'Documentação do negócios' },
- 
 ]
 
 export const experiences = [
@@ -48,7 +47,8 @@ export const experiences = [
   },
   {
     image: '/images/APIS3.jpg',
-    title: 'Agencia-consultoria focada em Branding, Inovacão e Marketing Digital',
+    title:
+      'Agencia-consultoria focada em Branding, Inovacão e Marketing Digital',
     dateWork: 'Mai 2017 - fev 2021',
     subText:
       'Faço parte das equipes de Infraestrutura e Desenvolvimento. Na equipe de Desenvolvimento, atuo com HTML5, CSS, Git e PHP. Na equipe de Infraestrutura, sou responsável pelas demandas de TI, manutenção de computadores, gerenciamento de servidores Linux (Ubuntu Server) e Windows Server 2012, além de realizar rotinas de backups.',

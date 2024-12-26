@@ -9,7 +9,7 @@ const NavItens = [
   {
     label: 'Home',
     href: '/',
-  }
+  },
   // {
   //   label: 'Projetos',
   //   href: '/projects',

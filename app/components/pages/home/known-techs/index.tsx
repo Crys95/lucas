@@ -2,6 +2,8 @@
 import { SectionTitles } from '@/app/components/section-title'
 import { KnownTech } from './known-tech'
 import { motion } from 'framer-motion'
+import { SiJira, SiMiro, SiPostman, SiVtex } from "react-icons/si"
+import { FaConfluence, FaPinterest } from "react-icons/fa"
 import {
   TbBrandNextjs,
   TbBrandReact,
@@ -12,47 +14,54 @@ import {
   TbBrandMysql,
   TbBrandPhp,
 } from 'react-icons/tb'
+import { BsFiletypeSql } from 'react-icons/bs'
+import { IoIosDocument } from 'react-icons/io'
 
 const stack = [
   {
-    icon: <TbBrandReact size={30} />,
-    name: 'ReactJs',
-    startDate: '2022-05-30',
+    icon: <BsFiletypeSql size={30} />,
+    name: 'SQL',
+    startDate: '2018-05-30',
   },
   {
-    icon: <TbBrandNextjs size={30} />,
-    name: 'NextJs',
-    startDate: '2022-07-30',
+    icon: <SiJira size={30} />,
+    name: 'JIRA',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandJavascript size={30} />,
-    name: 'JavaScript',
-    startDate: '2022-05-30',
+    icon: <SiPostman size={30} />,
+    name: 'POSTMAN',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandTypescript size={30} />,
-    name: 'TypeScript',
-    startDate: '2022-07-30',
+    icon: <FaConfluence size={30} />,
+    name: 'CONFLUENCE',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandLaravel size={30} />,
-    name: 'Laravel',
-    startDate: '2022-07-30',
+    icon: <FaPinterest size={30} />,
+    name: 'API REST',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandPhp size={30} />,
-    name: 'PHP',
-    startDate: '2022-07-30',
+    icon: <IoIosDocument size={30} />,
+    name: 'DOC. TÉCNICA',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandMysql size={30} />,
-    name: 'MySQL',
-    startDate: '2022-07-30',
+    icon: <IoIosDocument size={30} />,
+    name: 'DOC. NEGÓCIO',
+    startDate: '2021-01-30',
   },
   {
-    icon: <TbBrandDocker size={30} />,
-    name: 'Docker',
+    icon: <SiMiro size={30} />,
+    name: 'MIRO',
     startDate: '2023-03-30',
+  },
+  {
+    icon: <SiVtex size={30} />,
+    name: 'VTEX',
+    startDate: '2022-03-30',
   },
 ]
 

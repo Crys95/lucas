@@ -11,11 +11,7 @@ export const WorkExperience = () => {
             titlte="Experiência Profissional"
           />
           <p className="text-gray-400 mt-6">
-            Como desenvolvedor com experiência em ReactJS, NextJS, React Native,
-            PHP (Laravel), NodeJS, MySQL e ferramentas web, meu objetivo é criar
-            soluções de alta qualidade e inovadoras, buscando constantemente
-            aprimorar minhas habilidades e contribuir para o sucesso dos
-            projetos e equipes de desenvolvim
+          Product Owner com mais de 8 anos de experiência em Tecnologia da Informação, especializado no desenvolvimento e gestão de produtos digitais. Desde 2021, lidero iniciativas estratégicas que promovem soluções inovadoras, alinhadas às necessidades dos clientes e aos objetivos de negócios. Tenho sólida expertise em tecnologia, inovação e criação de experiências excepcionais para os usuários, unindo visão de produto a resultados tangíveis para as organizações.
           </p>
         </div>
 

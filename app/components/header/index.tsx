@@ -9,11 +9,11 @@ const NavItens = [
   {
     label: 'Home',
     href: '/',
-  },
-  {
-    label: 'Projetos',
-    href: '/projects',
-  },
+  }
+  // {
+  //   label: 'Projetos',
+  //   href: '/projects',
+  // },
 ]
 
 export const Header = () => {
@@ -25,15 +25,15 @@ export const Header = () => {
       className="absolute top-0 w-full z-10 h-24 flex items-center justify-center"
     >
       <div className="container flex items-center justify-between">
-        <Link href={'/'}>
+        {/* <Link href={'/'}>
           <Image
             width={150}
             height={150}
             src="/images/logo2.png"
             alt="Logo GB dev"
           ></Image>
-        </Link>
-        <nav className="flex items-center gap-2 sm:gap-10">
+        </Link> */}
+        <nav className="flex items-center justify-end gap-2 sm:gap-10">
           {NavItens.map((item) => (
             <NavItem {...item} key={item.label} />
           ))}

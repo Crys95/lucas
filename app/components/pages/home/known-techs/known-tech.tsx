@@ -15,7 +15,7 @@ export const KnownTech = ({ tech }: KnownTechProps) => {
     'pt-BR',
   )?.replace('há', '')
   return (
-    <div className="p-6 rounded-lg bg-gray-600/20  justify-between text-gray-500 flex hover:text-indigo-500 hover:bg-gray-600/30 transition-all">
+    <div className="p-6 rounded-lg bg-gray-600/20  justify-between text-gray-500 flex hover:text-amber-500 hover:bg-gray-600/30 transition-all">
       <div className="block items-center">
         <p className="font-medium">{tech.name}</p>
         <span>{relativoTime} de experiência</span>

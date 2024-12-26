@@ -5,23 +5,19 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { ParticleComponent } from '@/app/components/particles/Particules'
 
-const Experiencias = [
-  { name: 'JavaScript' },
-  { name: 'Typescript' },
-  { name: 'ReactJs' },
-  { name: 'NextJs' },
-  { name: 'React Native' },
-  { name: 'Tailwind' },
-  { name: 'Styled Components' },
-  { name: 'Material Ui' },
-  { name: 'PHP' },
-  { name: 'Laravel' },
-  { name: 'NodeJs' },
-  { name: 'Redux' },
-  { name: 'ContextApi' },
-  { name: 'Microsserviços' },
-  { name: 'MySQL' },
-  { name: 'Docker' },
+export const Experiencias = [
+  { name: 'Jira' },
+  { name: 'Confluence' },
+  { name: 'Postman API' },
+  { name: 'PL/SQL' },
+  { name: ' Vtex' },
+  { name: 'Scrum' },
+  { name: 'Plataforma de Rastreabilidade' },
+  { name: 'Documentação Técnica' },
+  { name: 'Documentação do negócios' },
+  { name: 'API Rest' },
+  
+
 ]
 
 export const HeroSection = () => {
@@ -36,16 +32,13 @@ export const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:max-w-[530px]"
         >
-          <p className="font-mono text-indigo-400">Olá, meu nome é</p>
+          <p className="font-mono text-amber-400">Olá, meu nome é</p>
           <h2 className="text-4xl font-medium mt-2">
-            Crystyan Gomes de Moura Ferreira
+            Lucas Pereira de Souza
           </h2>
           <p className="text-gray-200 my-6 text-base sm:text-base">
-            A constante vontade de melhorar é meu combustível. Vejo cada desafio
-            como uma maneira de me desafiar, de expandir meu conhecimento e de
-            crescer profissional e pessoalmente. A jornada da programação é uma
-            estrada interminável, e estou ansioso para percorrê-la, sempre
-            buscando me tornar o melhor desenvolvedor que posso ser.
+          Product Owner com mais de 8 anos de experiência em Tecnologia da Informação, especializado no desenvolvimento e gestão de produtos digitais. Desde 2021, lidero iniciativas estratégicas que promovem soluções inovadoras, alinhadas às necessidades dos clientes e aos objetivos de negócios. Tenho sólida expertise em tecnologia, inovação e criação de experiências excepcionais para os usuários, unindo visão de produto a resultados tangíveis para as organizações.
+
           </p>
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[550px]">
             {Experiencias.map((value, i) => (
@@ -70,9 +63,9 @@ export const HeroSection = () => {
           <Image
             width={420}
             height={420}
-            src="/images/crystyan7.jpg"
+            src="/images/lucassouza2.jpg"
             alt="foto de perfil"
-            className="p-1 border-2 border-indigo-500 w-[300px] h-full lg:w-[420px] mb-6 lg:mb-0 lg:rounded-lg rounded-full object-cover hover:shadow-button hover:border-indigo-200 transition-all"
+            className="p-1 border-2 border-amber-500 w-[300px] h-full lg:w-[420px] mb-6 lg:mb-0 lg:rounded-lg rounded-full object-cover hover:shadow-button hover:border-amber-200 transition-all"
           />
         </motion.div>
       </div>

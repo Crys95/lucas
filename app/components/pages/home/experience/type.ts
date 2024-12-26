@@ -1,41 +1,32 @@
 export const ExperienciasAcaruiy = [
-  { name: 'JavaScript' },
-  { name: 'Typescript' },
-  { name: 'ReactJs' },
-  { name: 'NextJs' },
-  { name: 'PHP' },
-  { name: 'Laravel' },
-  { name: 'Redux' },
-  { name: 'ContextApi' },
-  { name: 'Microsserviços' },
-  { name: 'MySQL' },
-  { name: 'Docker' },
+  { name: 'Jira' },
+  { name: 'Confluence' },
+  { name: 'Postman API' },
+  { name: 'PL/SQL' },
+  { name: 'Scrum' },
+  { name: 'Documentação Técnica' },
+  { name: 'Documentação do negócios' },
+  { name: 'API Rest' },
 ]
 
 export const ExperienciasControl = [
-  { name: 'JavaScript' },
-  { name: 'Typescript' },
-  { name: 'ReactJs' },
-  { name: 'NextJs' },
-  { name: 'React Native' },
-  { name: 'Tailwind' },
-  { name: 'Styled Components' },
-  { name: 'Material Ui' },
-  { name: 'PHP' },
-  { name: 'Laravel' },
-  { name: 'Redux' },
-  { name: 'ContextApi' },
-  { name: 'Microsserviços' },
-  { name: 'MySQL' },
-  { name: 'Docker' },
+  { name: 'Jira' },
+  { name: 'Confluence' },
+  { name: 'Postman API' },
+  { name: 'PL/SQL' },
+  { name: ' Vtex' },
+  { name: 'Scrum' },
+  { name: 'Plataforma de Rastreabilidade' },
+  { name: 'Documentação Técnica' },
+  { name: 'Documentação do negócios' },
+  { name: 'API Rest' },
 ]
 
 export const ExperienciasEb = [
-  { name: 'JavaScript' },
-  { name: 'ReactJs' },
-  { name: 'HTML' },
-  { name: 'CSS' },
-  { name: 'PHP' },
+  { name: 'PL/SQL' },
+  { name: 'Documentação Técnica' },
+  { name: 'Documentação do negócios' },
+ 
 ]
 
 export const experiences = [
@@ -43,24 +34,24 @@ export const experiences = [
     image: '/images/acaruiy_logo.jpg',
     title: 'Acaruiy',
     subText:
-      'Desenvolvedor Full Stack com experiência em correção de bugs e novos desenvolvimentos. Gerenciamento de estado utilizando ContextAPI e Redux. Desenvolvimento de APIs em Microsserviços com PHP (Laravel) e Node.js. Criação de aplicações móveis com React Native e desenvolvimento web com ReactJS e NextJS. Versionamento de código com Git (Git Flow) e atuação em equipes ágeis utilizando metodologia SCRUM.',
+      'Na Acuruiy, sou responsável pelo desenvolvimento e pela migração da principal plataforma de tributação, o produto de maior valor da empresa. Estamos conduzindo essa migração com foco em otimizar a usabilidade e realizar uma refatoração completa do código legado, garantindo maior eficiência, escalabilidade e alinhamento às melhores práticas tecnológicas.',
     dateWork: 'Mar 2024 - Momento atual',
     copetencias: ExperienciasAcaruiy,
   },
   {
-    image: '/images/login.jpeg',
-    title: 'Control 361',
+    image: '/images/pernambucanas.jpg',
+    title: 'Pernambucanas',
     subText:
-      'Desenvolvedor Full Stack com experiência sólida no desenvolvimento de sistemas para prefeituras e módulos que facilitam processos administrativos. Atuação na correção de bugs e novos desenvolvimentos, com gerenciamento de estado utilizando ContextAPI e Redux. Desenvolvimento de APIs em Microsserviços com PHP (Laravel) e Node.js, além de criação de aplicações móveis com React Native. Desenvolvimento web com ReactJS e NextJS, versionamento de código com Git (Git Flow) e trabalho com metodologias ágeis (SCRUM).',
-    dateWork: 'Fev 2022 - Mar 2024',
+      'Liderei um projeto de inovação em parceria com stakeholders, focado na implementação de novas ferramentas e melhorias para otimizar a experiência do cliente no app, site e meios de pagamento. Em conjunto com o time Scrum, gerenciamos o backlog e desenvolvemos um roadmap estratégico. Minhas responsabilidades incluíram o desenvolvimento de novos serviços, soluções de backend e frontend para o app, web, tablet e a plataforma Compre Aqui. Também participei ativamente na documentação técnica de projetos e APIs, implementando abordagens criativas para solução de problemas, transferindo conhecimento para os desenvolvedores, realizando consultas e extrações de dados, além de criar triggers no masterdata. Utilizei diversas ferramentas para atingir esses objetivos',
+    dateWork: 'Fev 2021 - ago 2024',
     copetencias: ExperienciasControl,
   },
   {
-    image: '/images/eb.png',
-    title: 'Cabo do Exército Brasileiro',
-    dateWork: 'mar 2014 - jan 2022',
+    image: '/images/APIS3.jpg',
+    title: 'Agencia-consultoria focada em Branding, Inovacão e Marketing Digital',
+    dateWork: 'Mai 2017 - fev 2021',
     subText:
-      'Auxiliar da Seção de Comunicação Social e Relações Públicas Migrei na equipe do TI em janeiro de 2021',
+      'Faço parte das equipes de Infraestrutura e Desenvolvimento. Na equipe de Desenvolvimento, atuo com HTML5, CSS, Git e PHP. Na equipe de Infraestrutura, sou responsável pelas demandas de TI, manutenção de computadores, gerenciamento de servidores Linux (Ubuntu Server) e Windows Server 2012, além de realizar rotinas de backups.',
     copetencias: ExperienciasEb,
   },
 ]

@@ -23,7 +23,7 @@ export const BackTopTop = () => {
 
   return show ? (
     <div>
-      <Button onClick={scrollToTop} className="shadow-lg shadow-indigo-400/20">
+      <Button onClick={scrollToTop} className="shadow-lg shadow-amber-400/20">
         <TbArrowNarrowUp size={20} />
       </Button>
     </div>
